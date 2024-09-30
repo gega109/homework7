@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.container {
+    width: 1110px;
+    height: 572px;
+    gap: 0px;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
+    border: none;
+    gap: 30px;
+}
+.person1 {
+    border-radius: 8px;
+    background: #733FC8;
+    grid-area: daniel;
+    border: none;
+    padding: 32px;
+    gap: 16px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.person2 {
+    border-radius: 8px;
+    background: #48556A;
+    grid-area: jonathan;
+    border: none;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 16px;
+}
+.person3 {
+    border-radius: 8px;
+    background: #FFF;
+    grid-area: kira;
+    border: none;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 16px;
+}
+.person4 {
+    border-radius: 8px;
+    background: #FFF;
+    grid-area: jeanette;
+    border: none;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    gap: 16px;
+}
+.person5 {
+    border-radius: 8px;
+    background: #19202D;
+    grid-area: patrick;
+    border: none;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 16px;
+}
+.person_div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right:320px;
+}
+.heading {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 13px;
+    color: white;
+}
+.un_text {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 11px;
+    color: gray;
+}
+.h3 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+}
+.p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    color: gray;
+}
+.some_tag {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-right: 25px
+}
+.image {
+    width: 28px;
+    height: 28px;
+}
+.black {
+    color: black;
+}
